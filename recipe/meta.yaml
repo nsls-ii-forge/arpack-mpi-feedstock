@@ -20,6 +20,8 @@ requirements:
     - openmpi
     - lapack
     - openblas
+    - liblapack
+    - libopenblas
     - {{ compiler('c') }}
     - {{ compiler('fortran') }}
   host:

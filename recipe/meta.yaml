@@ -18,6 +18,8 @@ requirements:
   build:
     - cmake
     - openmpi
+    - lapack
+    - openblas
     - {{ compiler('c') }}
     - {{ compiler('fortran') }}
   host:
